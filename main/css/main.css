@@ -1,0 +1,142 @@
+/* Basic */
+.basic{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../img/cool-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+    
+}
+
+.clearfix::after{
+    content: " ";
+    clear: both;
+}
+
+/* Content */
+/* Content basic*/
+.content{
+    width: 620px;
+    height: 500px;
+    margin: calc((100vh - 500px - 56.95px) / 2) auto;
+}
+
+/* Content avatar*/
+.avatar{
+    width: 100px;
+    height: 100px;
+    margin: 20px 256px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+/* Content name*/
+.name{
+    margin-top: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #f9ff21;
+}
+
+/* Content des*/
+.des{
+    margin-bottom: 60px;
+    text-align: center;
+    color: #393e46
+}
+
+/* Content many modules*/
+.content-link-container{
+    width: 522px;
+    height: 120px;
+    margin: 10px 49px;
+}
+
+.module{
+    float: left;
+    width: 106.5px;
+    height: 96px;
+    margin: 10px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 96px;
+    box-shadow: 0 0 5px 5px #7fe7cc;
+    font-size: 20px;
+}
+
+.module > *{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.style-1{
+    color: #ffffff;
+    background-color: #f3ec2c;
+}
+
+.style-2{
+    color: #ffffff;
+    background-color: #a1de93;
+}
+
+.style-3{
+    color: #ffffff;
+    background-color: #70a1d7;
+}
+
+.style-4{
+    color: #ffffff;
+    background-color: coral;
+}
+
+.module:hover{
+    border: 2px solid #ffffff;
+}
+
+/* Content social*/
+.social{
+    list-style: none;
+    padding: 0;
+    margin: 50px 50px;
+    text-align: center;
+}
+
+.social li{
+    display: inline;
+    padding: 8px;
+    border: 2px solid cornflowerblue;
+    border-radius: 20px;
+    border-style: dashed;
+    
+}
+
+.social li > *{
+    text-decoration: none;
+    color: #393e46;
+}
+
+.social li:hover{
+    border: 2px solid #ffffff;
+    transition-delay: 150ms;
+}
+
+.social li:hover > *{
+    color: #ffffff;
+    transition-delay: 150ms;
+}
+
+/* Footer */
+.footer{
+    width: 620px;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 13px;
+    text-align: center;
+    color: #393e46;
+    font: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
