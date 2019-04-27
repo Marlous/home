@@ -65,7 +65,6 @@
     border-radius: 20px;
     text-align: center;
     line-height: 96px;
-    box-shadow: 0 0 5px 5px #7fe7cc;
     font-size: 20px;
 }
 
@@ -77,21 +76,25 @@
 .style-1{
     color: #ffffff;
     background-color: #f3ec2c;
+    box-shadow: 0 0 5px 5px #f3ec2c;
 }
 
 .style-2{
     color: #ffffff;
     background-color: #a1de93;
+    box-shadow: 0 0 5px 5px #a1de93;
 }
 
 .style-3{
     color: #ffffff;
     background-color: #70a1d7;
+    box-shadow: 0 0 5px 5px #70a1d7;
 }
 
 .style-4{
     color: #ffffff;
     background-color: coral;
+    box-shadow: 0 0 5px 5px coral;
 }
 
 .module:hover{
