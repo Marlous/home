@@ -1,41 +1,65 @@
 <!DOCTYPE html>
-<html>
+
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <title>Marlous' Home</title>
-    <link type="text/css" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-    <link type="text/css" href="./main/css/main.css" rel="stylesheet">
 </head>
-<body class="basic">
+<body class="body-my-style text-center">
 
-    <!-- Content -->
-    <div class="content">
-        <img class="avatar" src="./main/img/profile.JPG">
-        <p class="name">Marlous</p>
-        <p class="des">" My Conquest is the Sea of Stars. "</p>
-        <div class="content-link-container clearfix">
-            <div class="module style-1"><a href="https://marlous.github.io/" target="_blank">Blog</a></div>
-            <div class="module style-2">Works</div>
-            <div class="module style-3">MoKit</div>
-            <div class="module style-4">About</div>
-        </div>
-        <ul class="social">
-            <li><a href="https://marlous.github.io/" target="_blank">✍️ 博客</a></li>
-            <li><a href="https://github.com/Marlous" target="_blank">💻 GitHub</a></li>
-            <li><a href="https://www.zhihu.com/people/Marlous" target="_blank">☕ 知乎</a></li>
-            <li><a href="https://twitter.com/MarlousMo" target="_blank">🐦 Twitter</a></li>
-            <li><a href=mailto:Goonecat@foxmail.com>📧 E-mail</a></li>
-        </ul>
+    <!--整个网页最外层的容器，flex 布局-->
+    <div class="container h-100 mx-auto p-3 d-flex flex-column">
+
+        <!--header 为最外层容器的 flex 成员-->
+        <header class="mb-auto">
+            <!--flex 成员嵌套一个容器，并通过栅格分成一行（其中两列）-->
+            <div class="container">
+                <div class="row">
+                    <!--第一列-->
+                    <div class="col-md-4">
+                        <h1 class="h1-my-style">Home</h1>
+                    </div>
+                    <!--第二列-->
+                    <div class="col-md-8">
+                        <nav class="navbar justify-content-center">
+                            <a class="nav-a-my-style nav-link" href="https://marlous.github.io/" target="_blank">Blog</a>
+                            <a class="nav-a-my-style nav-link" href="#" target="_blank">Works</a>
+                            <a class="nav-a-my-style nav-link" href="#" target="_blank">MoKit</a>
+                            <a class="nav-a-my-style nav-link" href="#" target="_blank">About</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--main 为最外层容器的 flex 成员-->
+        <main>
+            <img class="avator" src="img/profile.JPG">
+            <p class="name">Marlous</p>
+            <p class="des">" My Conquest is the Sea of Stars. "</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"><a class="social-a-my-style" href="https://github.com/Marlous" target="_blank">💻 GitHub</a></div>
+                    <div class="col-md-3"><a class="social-a-my-style" href="https://www.zhihu.com/people/Marlous" target="_blank">☕ 知乎</a></div>
+                    <div class="col-md-3"><a class="social-a-my-style" href="https://twitter.com/MarlousMo" target="_blank">🐦 Twitter</a></div>
+                    <div class="col-md-3"><a class="social-a-my-style" href=mailto:Goonecat@foxmail.com>📧 E-mail</a></div>
+                </div>
+            </div>
+        </main>
+
+        <!--footer 为最外层容器的 flex 成员-->
+        <footer class="footer-my-style mt-auto">
+            <p>Copyright © 2019 Marlous. All rights reserved.</p>
+        </footer>
+
     </div>
 
-    <!-- Footer -->
-    <div class="footer">
-        <p>Copyright © 2019 Marlous. All rights reserved.</p>
-    </div>
-
-    <!-- 这里是其他的 js 脚本 -->
-    <script src="./dep/jquery/jquery.min.js"></script>
-    <script src="./dep/semantic/semantic.min.js"></script>
-
+    <!-- Scripts -->
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
