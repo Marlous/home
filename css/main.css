@@ -1,3 +1,5 @@
+/********************** 整个网站通用的基础结构 **********************/
+
 /* 添加在 body 上的样式 */
 /* 调试发现宽度在 768px 时，元素会堆叠在一起，超过视窗高度，元素会 “流下去”，
 所以小于这个宽度时，让 body 高度去掉，让元素撑满高度 */
@@ -30,13 +32,7 @@ footer{
 }
 
 
-/* 设置 header（flex 成员）中的标题、导航栏元素样式 */
-.h1-my-style{
-    display: inline-block;
-    border-bottom: solid #393e46;
-    font-weight: bold;
-}
-
+/* 设置 header（flex 成员）中的右侧导航栏元素样式 */
 .nav-a-my-style{
     color: #ffffff;
     font-weight: bold;
@@ -47,48 +43,6 @@ footer{
     color: dimgrey;
     font-weight: bold;
     border-bottom: solid #ffffff;
-    transition: 200ms;
-}
-
-
-/* 设置 mian（flex 成员）中的头像、两行文字、若干社交列元素样式 */
-.avator{
-    display: inline-block;
-    margin: 10px auto 10px auto;
-    height: 130px;
-    width: 130px;
-    border: 4px solid #ffffff;
-    border-radius: 50%;
-}
-
-.name{
-    color: #ffffff;
-    font-size: larger;
-    font-weight: bold;
-}
-
-.des{
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.social-a-my-style{
-    display: inline-block;
-    margin: 2px;
-    padding: 5px;
-    color: #ffffff;
-    border-left: solid 2px transparent;
-    border-right: solid 2px transparent;
-}
-
-.social-a-my-style:hover{
-    display: inline-block;
-    margin: 2px;
-    padding: 5px;
-    text-decoration: none;
-    color: #ffffff;
-    border-left: solid 2px #ffffff;
-    border-right: solid 2px #ffffff;
     transition: 200ms;
 }
 
