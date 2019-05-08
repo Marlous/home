@@ -34,14 +34,14 @@
     margin: 10px;
     
     border: solid 2px transparent;
-    border-radius: 15px;
+    border-radius: 10px;
+    
     overflow: hidden;
-
-    background-color: #5d5d5a;
 }
 
 .works-item:hover{
     border: solid 2px #ffffff;
+    border-radius: 10px;
     transition: 200ms;
 }
 
