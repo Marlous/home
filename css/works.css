@@ -60,6 +60,6 @@
 }
 
 .works-item p:nth-child(3){
-    font-weight: normal;
+    font-weight: lighter;
     font-size: small;
 }
