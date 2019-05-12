@@ -18,6 +18,10 @@
 
 
 /* about 内容中的样式 */
+h6{
+    text-shadow: 0 0 5px white;
+}
+
 h4{
     display: inline-block;
     margin-top: 15px;
